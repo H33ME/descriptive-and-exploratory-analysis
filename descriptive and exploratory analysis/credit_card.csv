@@ -1,0 +1,1320 @@
+outcome,age,income,housing,credit_report
+Accepted,38,45200,Own,None
+Accepted,33,24200,Rent,None
+Accepted,34,45000,Own,None
+Accepted,31,25400,Rent,None
+Accepted,32,97867,Own,None
+Accepted,23,25000,Rent,one
+Accepted,28,39600,Rent,None
+Accept,29,23700,Own,None
+Accept,37,38000,Own,None
+Accept,28,32000,Rent,None
+Accepted,31,39500,Own,None
+Decline,42,19800,Own,None
+Decline,30,17300,Own,None
+Accepted,29,24500,Own,None
+Accepted,35,19080,Own,None
+Accepted,41,32000,Own,None
+Accepted,40,40000,Own,None
+Decline,30,30000,Own,More than five
+Accepted,40,99999,Own,None
+Decline,46,34000,Rental,Up to five
+Accepted,35,23500,Own,None
+Decline,25,18750,Rent,Up to five
+Accepted,34,,Own,None
+Accepted,36,40000,Rent,Up to five
+Accepted,43,51400,Own,None
+Accepted,30,45060,Rent,None
+Decline,22,38400,Rent,None
+Accepted,22,15000,Rent,None
+Decline,34,25000,Own,None
+Accepted,40,55000,Own,None
+Accepted,220,20272,Rent,None
+Accepted,29,32000,Rent,Up to five
+Decline,25,31500,Own,Up to five
+Accepted,21,24663,Own,None
+Accepted,24,30000,Rent,None
+Accepted,43,35412,Own,None
+Decline,43,22845,Rent,None
+Accepted,37,57000,Owner,None
+Accepted,27,35000,Rent,None
+Accepted,28,46000,Own,None
+Accepted,26,30000,Own,None
+Accepted,23,25850,Rent,None
+Accepted,30,15100,Rent,None
+Accepted,30,18500,Rent,None
+Accepted,38,26000,Rent,None
+Decline,28,18000,Rent,None
+Accepted,36,20000,Rent,None
+Decline,38,32628,Rent,None
+Accepted,26,23500,Rent,None
+Accepted,28,70000,Own,None
+Decline,50,36000,Rent,None
+Accepted,24,20000,Rent,None
+Accepted,21,,Rent,None
+Accepted,24,28000,Rent,None
+Accepted,26,24000,Rent,None
+Accept,33,30000,Rent,Up to five
+Accept,34,48000,Rent,None
+Accepted,33,31800,Rent,None
+Decline,45,18000,Rent,None
+Accepted,21,15000,Renting,None
+Accepted,25,30000,Rent,Up to five
+Accepted,27,22800,Rent,None
+Accepted,26,28000,Rent,None
+Accepted,22,27000,Rent,None
+Dacline,27,49000,Owner,Up to five
+Decline,26,25000,Rent,None
+Accepted,41,60000,Rent,None
+Accepted,42,39000,Rent,None
+Decline,22,51000,Rent,None
+Accepted,25,30740,Rent,None
+Accepted,31,24585,Own,None
+Accepted,27,20000,Rent,None
+Accepted,33,32480,Rent,None
+Accepted,37,27250,Rent,None
+Accepted,27,22000,Rent,None
+Decline,24,41000,Rent,Up to five
+Accepted,24,37500,Rent,None
+Accepted,25,28800,Rent,None
+Accepted,1,30500,Rent,None
+Accepted,33,25500,Rent,None
+Decline,33,40000,Rent,None
+Accepted,55,26400,Own,Up to five
+Accepted,20,16500,Rent,None
+Accepted,29,24000,Rent,None
+Decline,40,37099,Rental,Up to five
+Accepted,41,72400,Own,None
+Decline,41,43860,Own,None
+Decline,35,33000,Own,None
+Decline,24,23040,Rent,None
+Decline,54,41800,Rent,Up to fiver
+Decline,34,24875,Rent,Up to five
+Dacline,45,28055,Own,None
+Accepted,43,24000,Rent,None
+Decline,35,15000,Rent,Up to five
+Decline,36,84000,Rent,Up to five
+Accepted,22,15600,Rent,None
+Accepted,33,60000,Own,Up to five
+Accepted,25,36000,Rent,Up to five
+Accepted,26,50000,Own,None
+Accepted,46,55000,Own,None
+Accepted,35,99999,Own,Up to five
+Decline,35,45500,Own,None
+Decline,,29000,Rent,None
+Accepted,,18000,Rent,None
+Accepted,31,42000,Own,None
+Accepted,23,39200,Rent,None
+Accepted,23,36250,Rent,None
+Accepted,25,24800,Rent,None
+Accepted,41,99999,Own,None
+Accepted,44,100393,Own,None
+Accepted,23,29500,Own,None
+Accepted,42,50000,Rent,None
+Accepted,28,24000,Rent,None
+Accepted,46,135000,Own,None
+Decline,26,40000,Rent,Up to
+Accepted,37,39000,Rent,Up to five
+Accepted,38,20000,Own,Up to five
+Accepted,30,21500,Rent,None
+Accepted,21,30000,Rent,None
+Accepted,40,43000,Rent,None
+Decline,23,99999,Rent,Up to five
+Accepted,22,25000,Rent,None
+Accepted,22,30000,Rent,None
+Accepted,41,26000,Own,None
+Accepted,19,16600,Own,Up to fiver
+Accepted,34,45000,Own,None
+Accepted,25,50000,Rent,None
+Accepted,20,17400,Rent,None
+Accepted,25,18750,Rent,None
+Accepted,42,30000,Own,None
+Decline,31,42000,Rent,Up to five
+Decline,53,49000,Own,None
+Accepted,24,21300,Rent,None
+Decline,25,17000,Rent,Up to five
+Accepted,22,16800,Rent,None
+Decline,21,26400,Rent,None
+Accepted,18,19680,Rent,None
+Accepted,22,33000,Rent,None
+Accepted,21,15896,Rent,None
+Accepted,42,36000,Rent,None
+Accepted,36,30000,Rent,None
+Accepted,42,38000,Rent,None
+Accepted,27,33600,Rent,None
+Decline,33,23204,Rent,Up to five
+Accepted,43,78000,Own,None
+Accepted,30,25000,Own,None
+Accepted,25,15000,Rent,None
+Accepted,36,35822,Own,None
+Accepted,45,40000,Own,Up to five
+Accepted,43,67200,Own,Up to five
+Accepted,50,43000,Own,Up to five
+Accepted,32,35000,Own,None
+Decline,43,39500,Own,Up to five
+Decline,27,40000,Own,Up to five
+Accepted,25,24000,Rent,None
+Accepted,50,27000,Own,None
+Accepted,28,66000,Rent,one
+Accepted,27,27000,Rent,None
+Accepted,29,41000,Rent,None
+Accepted,72,77010,Own,None
+Accepted,25,,Rent,None
+Accepted,25,31200,Rent,None
+Accepted,25,23000,Rent,None
+Accepted,30,36700,Own,None
+Decline,33,65000,Own,None
+Accepted,23,25600,Rent,None
+Accepted,49,35000,Own,None
+Accepted,25,32400,Rent,None
+Accepted,25,34800,Own,None
+Accepted,25,29380,Rent,None
+Decline,29,24750,Rent,Up to five
+Decline,29,31200,Rent,Up to five
+Decline,32,25000,Rent,None
+Accepted,27,30000,Own,None
+Accepted,34,60000,Own,None
+Accepted,28,26000,Own,None
+Accepted,24,39000,Rent,None
+Decline,31,25000,Rent,Up to five
+Decline,35,33000,Rent,Up to five
+Accepted,32,59050,Rent,None
+Accepted,36,78000,Own,Up to five
+Decline,32,20600,Rent,Up to five
+Accepted,31,56965,Own,None
+Accepted,28,21600,Rent,None
+Decline,42,46000,Rent,Up to five
+Accepted,22,35000,Rent,None
+Accepted,30,25500,Own,None
+Accepted,44,17472,Own,None
+Accepted,30,19500,Own,None
+Accepted,34,50000,Own,None
+Accepted,24,28896,Rent,None
+Accepted,25,27000,Own,None
+Accepted,24,40000,Rent,None
+Accepted,24,23000,Rent,None
+Accepted,32,24000,Rent,None
+Decline,46,26000,Rent,None
+Accepted,22,24000,Own,None
+Accepted,36,25200,Rent,None
+Accepted,24,15600,Rent,None
+Accepted,49,24000,Rent,None
+Accepted,26,20000,Rent,None
+Accepted,29,25800,Rent,Up to five
+Accepted,33,31500,Rent,None
+Accepted,29,23000,Rent,None
+Accepted,48,46500,Rent,None
+Accepted,22,31200,Rent,None
+Accepted,30,20000,Own,None
+Decline,63,25500,Rent,More than five
+Accepted,22,24600,Rent,Up to five
+Accepted,31,38000,Rent,None
+Accepted,48,26372,Own,None
+Accepted,40,70000,Own,Up to five
+Decline,53,28000,Rent,None
+Decline,23,31475,Rent,None
+Decline,,60000,Rent,Up to five
+Accepted,25,32500,Rent,None
+Accepted,61,43200,Own,None
+Accepted,29,25000,Rent,None
+Accepted,35,30000,Rent,None
+Accepted,26,35000,Rent,None
+Accepted,43,45600,Rent,None
+Accepted,28,27600,Rent,None
+Accepted,23,25350,Own,None
+Decline,41,32388,Rent,More than
+Decline,35,38400,Rent,Up to five
+Accepted,33,13200,Rent,None
+Decline,26,39000,Rent,None
+Decline,57,20400,Own,None
+Accepted,30,72904,Own,Up to five
+Accepted,25,75000,Own,None
+Accepted,35,32604,Rent,None
+Accepted,25,16320,Rent,None
+Accepted,41,80000,Own,None
+Accepted,31,22000,Own,None
+Accepted,28,50000,Own,None
+Accepted,31,30000,Own,None
+Accepted,46,20000,Own,None
+Accepted,21,15400,Rent,None
+Decline,28,15000,Rent,None
+Accepted,52,30000,Own,None
+Accepted,42,50000,Own,Up to five
+Accepted,52,47232,Own,None
+Accepted,,15000,Own,None
+Accepted,26,23000,Rent,None
+Accepted,21,16000,Rent,None
+Accepted,28,22000,Rent,None
+Accepted,23,43200,Rent,None
+Decline,23,26000,Rent,None
+Accepted,20,16752,Rent,None
+Accepted,84,28725,Own,None
+Accepted,25,26000,Rent,None
+Accepted,34,29000,Own,None
+Accepted,25,26500,Rent,None
+Accepted,27,19000,Rent,None
+Accepted,66,29500,Own,None
+Accepted,22,31200,Rent,None
+Accepted,35,41125,Own,None
+Decline,46,60000,Own,Up to five
+Accepted,25,20000,Rent,None
+Decline,36,33800,Own,Up to five
+Accepted,34,35000,Rent,None
+Accepted,30,26000,Own,None
+Decline,26,35000,Rent,More than five
+Accepted,25,28000,Rent,Up to five
+Accepted,38,59000,Own,None
+Accepted,46,54000,Own,None
+Accepted,30,28000,Rent,None
+Accepted,44,39000,Own,None
+Accepted,47,34000,Rent,None
+Accepted,22,20800,Rent,None
+Accepted,58,25000,Own,None
+Accepted,24,19500,Rent,Up to five
+Accepted,26,21000,Rent,None
+Decline,31,30000,Own,None
+Accepted,35,32000,Own,Up to five
+Decline,38,26000,Rent,Up to five
+Accepted,40,30670,Rent,None
+Accepted,24,28000,Rent,None
+Accepted,31,48000,Own,None
+Decline,41,47400,Own,None
+Accepted,30,28000,Own,None
+Accepted,36,42000,Own,None
+Accepted,43,40000,Rent,None
+Decline,26,16500,Rent,Up to five
+Accepted,34,43000,Rent,None
+Accepted,64,64532,Own,None
+Accepted,22,30000,Rent,Up to five
+Accepted,21,17500,Rent,None
+Decline,22,18000,Rent,None
+Accepted,23,21500,Rent,None
+Decline,24,78800,Rent,None
+Decline,27,26000,Rent,Up to five
+Accepted,36,24200,Own,None
+Accepted,41,28000,Own,None
+Accepted,41,36400,Rent,None
+Accepted,54,99999,Own,Up to five
+Decline,21,19500,Rent,None
+Accepted,35,65000,Own,Up to five
+Accepted,32,38050,Own,None
+Accepted,41,21500,Rent,None
+Accepted,39,40000,Rent,Up to five
+Accepted,22,31000,Rent,None
+Decline,31,40104,Rent,None
+Accepted,29,45800,Rent,None
+Accepted,34,18000,Own,None
+Decline,38,17095,Rent,Up to five
+Accepted,22,22593,Own,None
+Accepted,26,35000,Rent,None
+Accepted,40,99999,Own,None
+Accepted,24,15678,Own,None
+Accepted,38,29623,Own,None
+Accepted,28,27000,Rent,Up to five
+Accepted,22,21600,Own,None
+Accepted,26,40000,Rent,None
+Decline,32,45000,Own,Up to five
+Decline,34,18000,Own,None
+Accepted,27,27500,Rent,None
+Accepted,40,24200,Own,None
+Decline,23,22500,Rent,None
+Decline,24,12000,Rent,None
+Decline,28,26000,Own,Up to five
+Decline,26,15000,Rent,None
+Accepted,25,21000,Own,None
+Accepted,0,32400,Own,None
+Decline,37,22200,Own,None
+Decline,35,49000,Rent,Up to five
+Accepted,42,23000,Own,None
+Decline,28,33000,Rent,Up to five
+Decline,45,25000,Own,Up to five
+Accepted,34,22050,Own,None
+Accepted,36,24000,Own,Up to five
+Accepted,22,27000,Rent,None
+Accepted,34,37000,Own,None
+Decline,28,21200,Rent,Up to five
+Accepted,35,62000,Own,None
+Accepted,40,25000,Rent,None
+Decline,24,20000,Rent,Up to five
+Decline,30,24000,Rent,None
+Accepted,45,40300,Rent,None
+Decline,32,30000,Rent,None
+Accepted,25,29000,Own,None
+Accepted,28,19900,Own,None
+Accepted,57,19200,Own,None
+Accepted,34,50000,Own,Up to five
+Decline,33,21600,Own,Up to five
+Accepted,27,22000,Rent,None
+Accepted,20,22375,Rent,None
+Decline,40,24000,Rent,Up to five
+Accepted,40,19000,Own,None
+Accepted,26,55000,Own,None
+Decline,32,21600,Rent,None
+Accepted,26,70000,Rent,Up to five
+Decline,37,26000,Own,Up to five
+Decline,23,25000,Rent,None
+Accepted,28,39000,Rent,None
+Accepted,49,52000,Own,None
+Accepted,24,32500,Rent,Up to five
+Accepted,33,36000,Rent,None
+Accepted,33,100000,Own,None
+Accepted,36,37000,Own,None
+Accepted,29,44670,Own,None
+Decline,36,52000,Own,None
+Accepted,23,48000,Rent,None
+Accepted,61,15000,Own,None
+Accepted,54,15000,Rent,None
+Decline,26,18504,Rent,None
+Accepted,30,24500,Rent,None
+Accepted,27,18900,Rent,None
+Accepted,39,35000,Own,None
+Decline,24,27885,Rent,None
+Accepted,47,45000,Own,None
+Decline,25,28000,Rent,Up to five
+Decline,32,28000,Own,Up to five
+Accepted,33,45000,Rent,None
+Accepted,45,38000,Own,None
+Decline,33,50000,Rent,None
+Accepted,23,27000,Rent,None
+Decline,25,25000,Rent,Up to five
+Accepted,27,32000,Own,None
+Accepted,23,19200,Own,None
+Accepted,46,23080,Rent,None
+Decline,29,17000,Rent,None
+Accepted,49,30000,Own,None
+Accepted,40,24500,Own,None
+Accepted,20,34000,Rent,None
+Accepted,33,25000,Rent,None
+Accepted,40,30000,Own,None
+Accepted,27,31500,Rent,None
+Accepted,27,35000,Rent,None
+Accepted,20,18000,Rent,None
+Accepted,24,22500,Rent,None
+Accepted,23,20000,Rent,None
+Accepted,27,41000,Own,None
+Accepted,24,29700,Rent,None
+Accepted,42,55000,Own,None
+Accepted,27,31500,Own,None
+Accepted,47,35000,Rent,None
+Accepted,21,15344,Rent,None
+Accepted,32,51000,Own,None
+Accepted,23,22500,Rent,None
+Accepted,26,34100,Own,None
+Accepted,35,37000,Own,None
+Decline,35,34000,Rent,None
+Accepted,36,41400,Own,None
+Decline,38,48000,Own,Up to five
+Accepted,35,70000,Own,None
+Accepted,29,70000,Own,None
+Accepted,29,22000,Rent,Up to five
+Decline,29,20600,Own,None
+Decline,22,15360,Rent,None
+Decline,37,40000,Own,Up to five
+Accepted,44,105000,Own,None
+Accepted,32,30500,Rent,None
+Accepted,57,34838,Own,Up to five
+Accepted,24,30000,Own,None
+Accepted,35,51000,Own,None
+Accepted,53,24500,Own,None
+Accepted,31,20000,Own,None
+Accepted,54,40000,Own,None
+Accepted,46,34800,Own,None
+Accepted,21,20000,Own,None
+Accepted,27,21500,Rent,None
+Decline,38,44750,Rent,None
+Accepted,33,17000,Rent,None
+Accepted,28,30000,Rent,None
+Accepted,27,23558,Own,None
+Accepted,50,45000,Own,None
+Accepted,48,37000,Own,None
+Accepted,25,55000,Own,None
+Accepted,31,33740,Own,None
+Accepted,63,55000,Own,None
+Decline,32,60000,Own,Up to five
+Accepted,28,69000,Own,None
+Accepted,29,27500,Own,None
+Accepted,1,25000,Rent,None
+Accepted,26,20000,Rent,None
+Accepted,22,26875,Rent,None
+Accepted,27,26796,Rent,None
+Accepted,23,18000,Rent,None
+Accepted,25,15600,Rent,None
+Accepted,20,15000,Rent,None
+Accepted,25,18804,Rent,None
+Decline,37,25200,Own,Up to five
+Accepted,20,22348,Rent,None
+Decline,31,17800,Rent,None
+Accepted,29,40100,Rent,None
+Accepted,52,124999,Own,None
+Accepted,32,16000,Rent,None
+Accepted,47,50000,Own,None
+Accepted,25,22750,Own,None
+Accepted,55,34000,Rent,None
+Accepted,21,17500,Own,None
+Accepted,27,32500,Own,None
+Accepted,45,39000,Rent,None
+Decline,36,18500,Rent,None
+Accepted,41,40000,Own,None
+Accepted,55,43000,Own,None
+Accepted,28,35000,Own,None
+Accepted,34,81000,Own,Up to five
+Accepted,30,40000,Own,Up to five
+Accepted,34,20000,Rent,Up to five
+Decline,1,30000,Rent,None
+Accepted,51,53000,Rent,None
+Decline,26,26000,Rent,More than five
+Accepted,28,25200,Rent,None
+Decline,24,22000,Rent,None
+Accepted,29,25000,Rent,None
+Accepted,34,35000,Rent,None
+Decline,31,43500,Rent,Up to five
+Decline,39,16000,Rent,None
+Accepted,32,20000,Rent,None
+Accepted,43,48000,Own,Up to five
+Accepted,30,30000,Own,None
+Accepted,62,16380,Own,None
+Decline,36,29000,Rent,Up to five
+Accepted,22,23779,Rent,None
+Accepted,38,23000,Own,None
+Accepted,40,81000,Own,None
+Decline,41,35700,Rent,Up to five
+Decline,34,19440,Rent,None
+Accepted,35,27500,Own,None
+Accepted,28,35000,Own,None
+Accepted,47,70000,Own,None
+Accepted,28,28000,Rent,None
+Accepted,22,19500,Rent,None
+Decline,46,65000,Rent,None
+Accepted,23,25000,Rent,None
+Accepted,37,30000,Rent,Up to five
+Accepted,27,18000,Own,None
+Accepted,40,26000,Own,None
+Accepted,52,36000,Own,None
+Accepted,24,23000,Rent,None
+Decline,22,17800,Rent,Up to five
+Accepted,22,38600,Own,None
+Accepted,46,49000,Own,None
+Decline,40,36000,Rent,None
+Accepted,42,32350,Own,None
+Decline,28,18500,Rent,Up to five
+Accepted,26,18500,Own,None
+Accepted,25,15600,Rent,None
+Accepted,32,40750,Own,None
+Decline,25,33000,Own,Up to five
+Accepted,24,25100,Rent,None
+Accepted,28,43750,Own,None
+Accepted,27,23500,Rent,None
+Accepted,21,40000,Own,None
+Decline,36,51000,Own,Up to five
+Accepted,32,30000,Own,None
+Accepted,29,35000,Own,None
+Accepted,40,35000,Own,None
+Accepted,35,55000,Own,None
+Accepted,52,38000,Own,None
+Accepted,23,17900,Rent,None
+Accepted,38,51000,Own,None
+Accepted,46,89400,Own,None
+Accepted,50,71000,Own,None
+Accepted,32,24000,Own,None
+Accepted,31,33050,Rent,Up to five
+Accepted,39,65000,Own,None
+Accepted,40,48100,Own,None
+Accepted,40,30000,Own,None
+Accepted,42,27000,Own,None
+Accepted,39,54000,Own,None
+Accepted,37,81240,Own,None
+Accepted,28,30400,Rent,None
+Accepted,30,20800,Own,Up to five
+Accepted,29,15110,Rent,None
+Decline,31,30000,Own,Up to five
+Accepted,30,26000,Own,None
+Accepted,37,25000,Own,None
+Accepted,45,35000,Own,None
+Accepted,25,24000,Rent,None
+Accepted,27,23200,Rent,None
+Accepted,46,25800,Own,None
+Accepted,28,21000,Own,None
+Accepted,38,23500,Rent,None
+Accepted,47,28000,Own,None
+Decline,52,37000,Rent,Up to five
+Decline,37,16800,Own,None
+Decline,25,26400,Rent,None
+Accepted,28,23000,Own,Up to five
+Accepted,35,68880,Own,Up to five
+Decline,25,40000,Rent,Up to five
+Accepted,28,20000,Own,None
+Decline,19,19700,Rent,None
+Accepted,25,30000,Rent,None
+Accepted,26,27500,Own,None
+Accepted,31,50000,Own,None
+Accepted,34,21000,Rent,None
+Accepted,28,40000,Own,None
+Accepted,48,30000,Own,Up to five
+Accepted,37,33000,Rent,None
+Decline,45,23500,Rent,Up to five
+Decline,53,21600,Rent,Up to five
+Accepted,28,39000,Own,None
+Accepted,40,23115,Rent,None
+Accepted,49,17000,Rent,None
+Accepted,40,20000,Rent,None
+Accepted,24,48000,Rent,None
+Accepted,34,30000,Own,None
+Accepted,21,15600,Rent,None
+Accepted,39,20000,Own,None
+Accepted,24,26000,Rent,None
+Accepted,48,46800,Own,None
+Accepted,35,40000,Rent,None
+Accepted,52,18744,Own,None
+Accepted,48,31000,Rent,Up to five
+Accepted,26,28000,Rent,None
+Accepted,24,20400,Rent,None
+Accepted,25,21000,Rent,None
+Accepted,22,20000,Rent,None
+Accepted,33,56000,Own,None
+Accepted,39,30000,Own,None
+Accepted,22,24000,Rent,None
+Accepted,23,18500,Rent,None
+Accepted,24,29000,Own,None
+Decline,27,20000,Rent,None
+Accepted,52,18900,Rent,None
+Accepted,20,20000,Rent,None
+Accepted,25,16417,Rent,None
+Decline,23,23400,Rent,Up to five
+Accepted,24,19000,Rent,None
+Accepted,22,15300,Own,None
+Accepted,22,39946,Rent,None
+Accepted,46,16000,Rent,None
+Accepted,19,18000,Rent,None
+Accepted,30,37000,Rent,Up to five
+Accepted,29,21000,Rent,None
+Accepted,27,20000,Rent,None
+Decline,45,26000,Own,Up to five
+Accepted,27,26750,Own,None
+Decline,30,41600,Own,Up to five
+Accepted,25,21000,Rent,None
+Accepted,28,24000,Rent,None
+Accepted,39,31200,Own,None
+Accepted,31,30000,Own,None
+Accepted,40,31150,Own,None
+Decline,23,16213,Rent,Up to five
+Accepted,44,43681,Own,None
+Decline,25,25340,Rent,None
+Decline,41,31000,Own,Up to five
+Decline,32,27161,Rent,More than five
+Accepted,42,40400,Rent,None
+Accepted,47,27495,Rent,None
+Accepted,28,30000,Rent,None
+Accepted,31,31500,Own,None
+Decline,39,59700,Own,None
+Accepted,31,26000,Rent,None
+Decline,48,84000,Own,None
+Accepted,22,19500,Rent,None
+Accepted,37,30000,Own,None
+Accepted,24,28000,Own,None
+Accepted,25,45500,Own,Up to five
+Accepted,21,19900,Rent,None
+Accepted,49,45000,Rent,None
+Decline,36,40000,Rent,None
+Accepted,39,35000,Own,None
+Decline,28,21500,Rent,Up to five
+Decline,23,16200,Rent,None
+Accepted,31,35000,Rent,None
+Accepted,27,29000,Own,None
+Accepted,39,34064,Rent,None
+Accepted,25,40000,Rent,None
+Accepted,27,26000,Rent,None
+Accepted,25,20676,Rent,None
+Accepted,45,24000,Rent,None
+Accepted,25,34200,Rent,None
+Accepted,22,67000,Rent,None
+Accepted,40,54300,Rent,None
+Accepted,24,16200,Rent,None
+Accepted,32,24192,Rent,None
+Accepted,25,34000,Rent,None
+Accepted,47,36000,Own,None
+Accepted,27,25000,Rent,None
+Accepted,50,17500,Own,None
+Accepted,32,25000,Rent,None
+Accepted,35,45000,Own,None
+Decline,26,24660,Own,Up to five
+Accepted,21,27000,Rent,None
+Decline,34,24000,Rent,None
+Accepted,50,69000,Own,None
+Accepted,41,48000,Own,None
+Accepted,21,19200,Rent,None
+Accepted,40,28000,Rent,None
+Accepted,25,16949,Rent,None
+Accepted,29,35000,Rent,None
+Accepted,41,22500,Rent,Up to five
+Decline,31,23150,Rent,Up to five
+Accepted,31,40000,Own,None
+Accepted,40,45000,Rent,None
+Accepted,23,31782,Rent,None
+Accepted,23,30000,Rent,None
+Accepted,31,30000,Own,None
+Decline,25,20000,Rent,None
+Accepted,37,35000,Own,None
+Accepted,1,40000,Own,None
+Decline,29,25800,Own,None
+Accepted,46,119999,Own,None
+Accepted,1,37000,Rent,Up to five
+Decline,23,14340,Own,None
+Accepted,39,36800,Own,None
+Decline,24,25500,Own,None
+Decline,37,35000,Own,Up to five
+Accepted,28,23000,Own,None
+Accepted,26,31894,Rent,None
+Accepted,27,23500,Rent,None
+Decline,26,19700,Rent,Up to five
+Accepted,41,36000,Own,None
+Decline,39,32000,Rent,Up to five
+Accepted,35,20000,Own,None
+Accepted,32,28500,Own,None
+Accepted,24,30950,Own,None
+Accepted,25,15000,Own,None
+Accepted,57,48000,Own,None
+Accepted,24,26000,Rent,None
+Accepted,23,28500,Own,None
+Accepted,28,33500,Own,None
+Accepted,33,18142,Own,None
+Accepted,35,36000,Own,None
+Decline,31,15150,Rent,None
+Accepted,25,24000,Rent,None
+Decline,39,30000,Rent,None
+Decline,37,35000,Own,More than five
+Accepted,30,30000,Own,None
+Accepted,35,23400,Own,None
+Accepted,25,21000,Rent,None
+Accepted,22,16000,Own,None
+Accepted,27,22160,Rent,None
+Accepted,32,36500,Own,None
+Decline,39,32000,Rent,More than five
+Decline,31,26000,Rent,None
+Accepted,60,61000,Own,Up to five
+Decline,36,30000,Rent,Up to five
+Accepted,37,45000,Own,None
+Accepted,29,21840,Own,None
+Decline,67,32500,Own,None
+Accepted,35,22000,Own,None
+Accepted,74,28065,Own,None
+Accepted,28,24304,Own,None
+Accepted,55,67000,Own,None
+Decline,38,40000,Own,Up to five
+Decline,38,51600,Own,None
+Accepted,40,51000,Own,None
+Accepted,45,42000,Own,None
+Accepted,31,56000,Own,None
+Accepted,23,18600,Rent,None
+Decline,27,16400,Rent,None
+Accepted,52,68000,Rent,None
+Accepted,23,18468,Rent,None
+Decline,23,18000,Rent,None
+Decline,37,30000,Own,Up to five
+Accepted,36,22000,Own,None
+Decline,23,18000,Rent,Up to five
+Accepted,32,26000,Rent,None
+Decline,27,20000,Rent,None
+Accepted,38,50000,Own,None
+Accepted,29,42200,Own,None
+Accepted,38,40188,Rent,None
+Accepted,26,30000,Rent,None
+Accepted,22,31532,Rent,None
+Accepted,24,28000,Rent,None
+Accepted,30,28600,Rent,None
+Accepted,23,20400,Rent,None
+Accepted,34,35000,Own,None
+Accepted,65,71250,Own,None
+Decline,24,25000,Rent,None
+Accepted,24,33000,Rent,None
+Accepted,37,22000,Rent,None
+Accepted,38,32000,Own,Up to five
+Accepted,22,40000,Own,None
+Accepted,39,55689,Rent,None
+Accepted,37,70000,Own,None
+Decline,26,23000,Rent,Up to five
+Accepted,22,55000,Rent,None
+Accepted,41,25000,Rent,Up to five
+Decline,41,25000,Own,Up to five
+Accepted,25,80000,Own,None
+Accepted,24,18300,Rent,None
+Accepted,27,29000,Rent,None
+Decline,39,47000,Own,Up to five
+Decline,23,17250,Rent,Up to five
+Decline,37,15548,Rent,None
+Accepted,42,38200,Rent,None
+Accepted,52,24000,Rent,None
+Accepted,32,24000,Rent,None
+Accepted,36,30000,Rent,None
+Accepted,21,16000,Rent,None
+Accepted,42,26800,Rent,None
+Accepted,32,63000,Rent,None
+Accepted,24,16000,Rent,None
+Accepted,32,26000,Rent,None
+Accepted,29,21000,Rent,None
+Decline,28,19324,Rent,Up to five
+Accepted,23,25000,Own,None
+Decline,45,18000,Rent,Up to five
+Accepted,31,35600,Rent,None
+Accepted,25,34000,Rent,None
+Accepted,28,25500,Rent,None
+Accepted,47,49200,Own,None
+Accepted,26,39000,Rent,None
+Accepted,37,52000,Rent,None
+Accepted,54,90000,Own,None
+Accepted,35,60000,Rent,None
+Accepted,36,75000,Own,None
+Accepted,45,90000,Rent,None
+Accepted,20,21000,Rent,None
+Accepted,24,30000,Rent,None
+Accepted,28,26000,Rent,None
+Accepted,55,54800,Own,None
+Accepted,40,82000,Own,None
+Accepted,33,25000,Rent,Up to five
+Accepted,29,30000,Own,None
+Accepted,36,65000,Own,None
+Accepted,57,75720,Own,Up to five
+Accepted,28,20000,Rent,Up to five
+Decline,31,32500,Rent,Up to five
+Decline,24,30000,Rent,Up to five
+Accepted,41,70000,Rent,None
+Decline,33,75000,Rent,More than five
+Accepted,38,38000,Own,None
+Accepted,26,37000,Own,None
+Accepted,33,34000,Own,None
+Decline,28,28500,Rent,Up to five
+Accepted,28,26000,Rent,None
+Accepted,22,15660,Rent,None
+Accepted,24,18000,Own,None
+Accepted,39,31000,Own,None
+Decline,25,15000,Rent,None
+Accepted,19,21900,Rent,Up to five
+Accepted,31,55000,Own,None
+Accepted,32,44000,Own,None
+Accepted,33,30000,Own,None
+Accepted,26,29500,Rent,Up to five
+Accepted,27,16000,Own,None
+Accepted,22,20000,Rent,None
+Accepted,25,28542,Rent,None
+Accepted,27,22000,Rent,None
+Accepted,29,36500,Rent,None
+Decline,35,17000,Rent,More than five
+Accepted,57,16500,Rent,None
+Accepted,52,26600,Own,None
+Accepted,42,27500,Own,None
+Accepted,39,15600,Rent,None
+Decline,57,80000,Own,Up to five
+Accepted,28,20272,Own,None
+Accepted,38,40000,Own,None
+Accepted,55,67000,Own,None
+Accepted,29,25000,Own,None
+Accepted,20,30000,Rent,None
+Accepted,25,32000,Rent,None
+Accepted,27,31800,Rent,None
+Accepted,28,32000,Own,None
+Accepted,26,17305,Rent,Up to five
+Accepted,26,24000,Rent,None
+Decline,32,22500,Rent,Up to five
+Accepted,43,39495,Own,None
+Accepted,35,30000,Rent,None
+Accepted,28,26500,Rent,None
+Decline,28,22360,Rent,Up to five
+Accepted,39,47000,Own,None
+Accepted,41,34800,Rent,None
+Accepted,23,25500,Rent,None
+Accepted,44,27700,Own,Up to five
+Accepted,48,31131,Rent,None
+Accepted,19,19680,Rent,None
+Accepted,21,18000,Rent,Up to five
+Decline,55,94000,Own,Up to five
+Accepted,36,55000,Rent,None
+Decline,24,15000,Rent,None
+Accepted,25,27000,Rent,None
+Accepted,24,23500,Rent,None
+Accepted,40,46000,Rent,None
+Accepted,32,109999,Rent,None
+Accepted,63,26545,Rent,None
+Accepted,36,73500,Rent,Up to five
+Accepted,23,32000,Rent,None
+Accepted,28,62000,Own,None
+Accepted,38,32700,Rent,Up to five
+Accepted,49,37000,Rent,Up to five
+Accepted,51,17500,Rent,None
+Decline,24,24250,Rent,None
+Decline,29,27000,Rent,Up to five
+Accepted,45,37000,Rent,None
+Accepted,32,32000,Rent,None
+Accepted,32,31000,Rent,None
+Decline,38,90000,Rent,None
+Accepted,28,55000,Rent,Up to five
+Decline,36,41000,Own,None
+Accepted,38,30000,Own,None
+Accepted,26,28000,Rent,None
+Accepted,42,51000,Rent,None
+Accepted,35,70000,Rent,None
+Accepted,25,23040,Rent,None
+Accepted,32,23000,Rent,None
+Decline,25,19000,Rent,Up to five
+Accepted,24,23000,Rent,None
+Decline,23,15000,Rent,Up to five
+Accepted,26,23750,Rent,None
+Accepted,30,28000,Rent,None
+Accepted,27,25224,Rent,None
+Accepted,27,22000,Rent,None
+Accepted,32,32000,Rent,None
+Accepted,33,37000,Rent,None
+Accepted,46,18000,Rent,None
+Decline,47,23500,Rent,Up to five
+Accepted,23,18200,Rent,None
+Accepted,42,55000,Rent,None
+Decline,30,26000,Rent,More than five
+Accepted,21,21500,Rent,None
+Accepted,37,38000,Own,None
+Accepted,37,20000,Rent,None
+Accepted,27,24500,Rent,Up to five
+Accepted,46,35000,Own,Up to five
+Accepted,26,28000,Rent,None
+Accepted,30,19900,Rent,Up to five
+Decline,28,20000,Rent,None
+Accepted,21,21000,Own,None
+Accepted,20,27900,Rent,None
+Accepted,23,23200,Rent,None
+Accepted,45,46000,Rent,None
+Decline,27,20000,Own,Up to five
+Accepted,30,30000,Rent,None
+Accepted,52,33280,Own,None
+Accepted,42,24752,Rent,None
+Accepted,23,43000,Rent,None
+Decline,33,17700,Rent,None
+Accepted,30,24500,Rent,Up to five
+Accepted,20,18500,Own,None
+Accepted,26,22300,Rent,None
+Decline,23,25000,Rent,None
+Accepted,33,35091,Rent,Up to five
+Accepted,27,32875,Rent,None
+Accepted,29,42320,Rent,None
+Decline,37,18500,Rent,Up to five
+Accepted,26,22000,Rent,None
+Decline,42,35000,Rent,None
+Accepted,24,30000,Rent,None
+Accepted,25,18000,Own,None
+Accepted,26,17000,Rent,None
+Accepted,29,55000,Rent,None
+Accepted,41,25685,Rent,None
+Decline,59,35000,Rent,Up to five
+Accepted,37,25000,Rent,None
+Accepted,31,33026,Rent,None
+Accepted,30,22500,Rent,None
+Accepted,33,100000,Own,Up to five
+Accepted,26,29000,Rent,None
+Decline,36,29500,Rent,Up to five
+Decline,25,16000,Rent,None
+Accepted,29,34000,Rent,None
+Decline,22,21000,Own,Up to five
+Accepted,28,32000,Rent,None
+Decline,29,35000,Rent,None
+Accepted,32,24700,Rent,None
+Accepted,28,26000,Rent,None
+Decline,39,40248,Rent,Up to five
+Accepted,23,21000,Rent,None
+Accepted,30,19500,Rent,None
+Decline,34,35995,Rent,None
+Decline,43,37000,Rent,Up to five
+Accepted,32,30000,Rent,None
+Accepted,32,45000,Rent,None
+Decline,25,23000,Rent,More than five
+Accepted,45,35000,Own,None
+Accepted,25,21000,Own,None
+Accepted,41,50000,Rent,None
+Accepted,40,24500,Rent,None
+Accepted,41,35000,Rent,None
+Accepted,25,25000,Rent,None
+Decline,30,36000,Rent,More than five
+Accepted,25,26560,Own,None
+Decline,28,25000,Rent,None
+Decline,28,20000,Rent,None
+Accepted,25,35200,Rent,None
+Accepted,23,18769,Rent,Up to five
+Accepted,21,22500,Rent,None
+Accepted,40,17123,Rent,None
+Accepted,26,40000,Rent,None
+Accepted,25,21600,Rent,None
+Accepted,40,33000,Rent,Up to five
+Accepted,38,70000,Own,None
+Accepted,25,21000,Rent,None
+Accepted,42,30000,Own,None
+Accepted,24,35000,Rent,Up to five
+Decline,23,20700,Rent,None
+Accepted,19,28000,Own,None
+Accepted,57,50000,Own,None
+Accepted,34,21888,Rent,None
+Decline,48,20000,Own,More than five
+Accepted,49,27000,Rent,Up to five
+Accepted,29,26900,Rent,None
+Accepted,41,37300,Own,Up to five
+Accepted,33,20000,Own,None
+Accepted,44,43000,Own,None
+Accepted,38,55000,Own,None
+Accepted,37,59200,Own,None
+Accepted,44,76000,Own,Up to five
+Accepted,18,28200,Rent,None
+Accepted,25,22000,Own,None
+Accepted,48,26611,Own,None
+Decline,32,75000,Rent,Up to five
+Accepted,33,40000,Own,None
+Accepted,32,65000,Own,None
+Accepted,38,56000,Own,None
+Decline,20,21000,Rent,None
+Accepted,35,45000,Own,None
+Accepted,29,25100,Rent,None
+Accepted,46,100320,Own,Up to five
+Accepted,20,35000,Rent,None
+Accepted,23,35000,Rent,None
+Accepted,24,39000,Rent,None
+Accepted,19,25000,Rent,None
+Accepted,49,52000,Own,None
+Decline,48,15000,Own,None
+Accepted,49,99999,Own,None
+Accepted,58,41000,Own,None
+Accepted,25,22000,Rent,None
+Accepted,26,43800,Own,None
+Decline,38,24852,Rent,Up to five
+Accepted,30,66000,Own,Up to five
+Accepted,31,27400,Own,Up to five
+Accepted,59,27000,Own,Up to five
+Accepted,39,32618,Rent,None
+Accepted,46,58000,Own,None
+Accepted,26,25000,Rent,None
+Accepted,30,35000,Own,None
+Decline,80,15000,Rent,None
+Decline,26,17500,Rent,None
+Decline,40,44000,Own,Up to five
+Accepted,42,47000,Own,None
+Accepted,49,33000,Own,None
+Accepted,44,58000,Own,None
+Decline,43,53200,Own,Up to five
+Accepted,25,24000,Rent,None
+Accepted,44,32500,Own,None
+Accepted,25,30600,Rent,None
+Accepted,40,30000,Own,None
+Accepted,26,22000,Own,None
+Accepted,44,30000,Own,None
+Accepted,46,42000,Own,None
+Accepted,34,23700,Own,None
+Accepted,39,25200,Own,Up to five
+Accepted,37,54900,Own,Up to five
+Accepted,20,29800,Rent,None
+Decline,27,36000,Rent,None
+Accepted,40,22500,Own,None
+Accepted,46,32240,Own,None
+Accepted,52,50000,Own,None
+Decline,35,26700,Rent,Up to five
+Accepted,30,37500,Own,None
+Accepted,62,37500,Own,None
+Accepted,33,37000,Own,None
+Accepted,39,33000,Own,None
+Accepted,37,70000,Own,None
+Accepted,34,33748,Rent,Up to five
+Decline,30,31200,Rent,None
+Accepted,43,25900,Own,None
+Accepted,29,21000,Own,Up to five
+Accepted,53,30000,Own,None
+Accepted,30,30000,Own,None
+Accepted,46,44000,Own,None
+Accepted,30,31000,Own,None
+Accepted,31,29800,Rent,None
+Accepted,22,28000,Own,None
+Decline,37,18339,Rent,None
+Accepted,22,32905,Rent,None
+Accepted,29,27000,Rent,None
+Accepted,28,39000,Own,None
+Decline,27,18000,Rent,Up to five
+Accepted,31,32000,Rent,None
+Accepted,33,36500,Own,None
+Accepted,31,35000,Rent,None
+Accepted,41,47700,Own,None
+Accepted,39,42000,Own,None
+Decline,43,50000,Own,More than five
+Accepted,25,20000,Own,None
+Accepted,27,26000,Own,None
+Accepted,61,50000,Own,None
+Accepted,44,40000,Own,None
+Accepted,61,53726,Own,None
+Accepted,41,27246,Rent,None
+Accepted,21,18000,Rent,None
+Accepted,46,40000,Own,None
+Accepted,27,21000,Rent,None
+Decline,34,25500,Rent,None
+Accepted,31,25000,Own,None
+Accepted,24,20000,Rent,None
+Accepted,35,30000,Rent,None
+Accepted,39,26000,Own,None
+Accepted,36,24000,Rent,Up to five
+Accepted,36,40000,Own,None
+Accepted,43,62000,Own,None
+Accepted,23,22000,Rent,None
+Decline,29,20000,Rent,Up to five
+Accepted,45,58000,Own,Up to five
+Accepted,31,18000,Rent,None
+Accepted,27,32640,Rent,None
+Accepted,24,21000,Own,None
+Accepted,23,27456,Rent,None
+Accepted,55,37000,Own,Up to five
+Accepted,35,48150,Own,None
+Accepted,46,30500,Own,None
+Accepted,39,24000,Rent,None
+Accepted,35,50000,Own,None
+Accepted,19,26000,Rent,None
+Accepted,28,40000,Own,None
+Accepted,46,68000,Own,None
+Accepted,47,19400,Rent,None
+Accepted,25,24500,Rent,None
+Accepted,51,45300,Own,None
+Accepted,41,68250,Rent,None
+Accepted,36,38500,Rent,Up to five
+Accepted,32,27500,Own,None
+Decline,42,35000,Own,Up to five
+Decline,33,30000,Own,Up to five
+Accepted,22,23000,Own,None
+Accepted,29,18000,Rent,None
+Accepted,21,22000,Rent,None
+Accepted,35,48000,Own,None
+Accepted,28,20400,Own,None
+Accepted,37,16800,Own,Up to five
+Accepted,24,27811,Rent,None
+Accepted,64,60000,Rent,None
+Accepted,26,35000,Rent,None
+Decline,42,18000,Rent,Up to five
+Accepted,35,39000,Own,None
+Accepted,21,20000,Rent,None
+Accepted,42,71195,Own,Up to five
+Decline,25,18500,Rent,Up to five
+Accepted,32,16000,Rent,None
+Accepted,34,48500,Own,None
+Accepted,37,28250,Own,None
+Decline,27,27000,Rent,Up to five
+Decline,56,14500,Own,None
+Accepted,27,18000,Own,None
+Decline,33,37000,Own,None
+Accepted,19,19000,Rent,None
+Accepted,36,26200,Own,None
+Accepted,25,37500,Own,None
+Accepted,46,45000,Own,None
+Decline,39,37000,Rent,Up to five
+Accepted,42,38360,Own,Up to five
+Decline,26,15900,Rent,None
+Decline,26,20700,Rent,Up to five
+Accepted,31,51000,Own,None
+Decline,41,40128,Rent,Up to five
+Accepted,67,44692,Rent,None
+Accepted,33,35000,Rent,None
+Accepted,46,50000,Own,None
+Accepted,28,25000,Rent,Up to five
+Accepted,30,15000,Rent,None
+Accepted,47,38425,Own,Up to five
+Accepted,43,36000,Own,Up to five
+Accepted,45,29500,Rent,None
+Accepted,38,23850,Own,None
+Accepted,28,21600,Rent,None
+Accepted,32,20070,Rent,None
+Accepted,23,15600,Own,None
+Decline,58,20000,Own,Up to five
+Accepted,23,29000,Rent,None
+Accepted,24,37000,Own,None
+Accepted,37,38400,Rent,None
+Decline,63,21375,Own,Up to five
+Decline,23,24000,Rent,None
+Accepted,24,24000,Rent,None
+Accepted,41,20000,Own,None
+Decline,28,15480,Rent,None
+Decline,52,20000,Own,Up to five
+Accepted,28,31000,Own,None
+Accepted,29,25000,Own,None
+Accepted,39,51000,Own,None
+Accepted,32,20000,Own,None
+Accepted,33,36000,Rent,None
+Accepted,25,33984,Own,None
+Accepted,42,42000,Own,None
+Decline,35,17000,Own,Up to five
+Decline,33,19390,Rent,None
+Accepted,34,29000,Own,None
+Accepted,48,17000,Own,None
+Decline,27,49000,Rent,None
+Accepted,40,22224,Own,None
+Accepted,32,61064,Own,None
+Decline,21,26250,Rent,Up to five
+Decline,22,15600,Own,Up to five
+Accepted,28,26520,Own,None
+Accepted,44,28000,Own,None
+Accepted,24,16000,Own,None
+Accepted,29,50000,Own,None
+Accepted,28,20400,Rent,Up to five
+Accepted,48,50400,Rent,None
+Decline,20,19200,Rent,None
+Decline,42,34000,Own,None
+Accepted,43,32000,Own,None
+Accepted,45,31000,Own,None
+Accepted,36,18829,Rent,None
+Accepted,22,24000,Rent,None
+Accepted,26,30000,Own,None
+Decline,41,18400,Rent,None
+Accepted,36,25000,Own,None
+Accepted,31,51120,Own,None
+Accepted,52,25000,Own,None
+Accepted,34,54000,Own,None
+Decline,31,25000,Rent,Up to five
+Accepted,33,21000,Rent,None
+Accepted,33,60000,Rent,Up to five
+Accepted,26,15600,Rent,None
+Accepted,32,40700,Rent,None
+Accepted,21,27000,Rent,Up to five
+Accepted,23,20400,Own,None
+Accepted,60,28000,Own,None
+Accepted,25,62000,Rent,None
+Accepted,30,21900,Rent,None
+Accepted,29,32000,Rent,None
+Accepted,48,23000,Own,None
+Accepted,25,17600,Rent,None
+Decline,70,18000,Own,None
+Accepted,53,39600,Own,None
+Accepted,54,25000,Own,None
+Accepted,32,22800,Own,None
+Accepted,34,25000,Own,None
+Accepted,23,26000,Rent,None
+Accepted,25,22000,Own,None
+Accepted,40,24480,Own,Up to five
+Decline,48,68000,Own,Up to five
+Decline,36,45000,Own,None
+Accepted,50,49600,Own,None
+Accepted,35,50000,Own,None
+Accepted,35,21000,Rent,None
+Accepted,47,104000,Own,None
+Decline,20,15600,Own,None
+Decline,30,23000,Rent,More than five
+Decline,40,49875,Own,None
+Decline,35,56335,Own,More than five
+Decline,24,16720,Rent,None
+Accepted,1,16000,Rent,None
+Accepted,25,15100,Own,None
+Accepted,39,28463,Own,None
+Accepted,25,23000,Rent,None
+Accepted,25,30000,Rent,None
+Accepted,23,22000,Own,Up to five
+Accepted,50,2100,Own,None
+Accepted,37,28000,Rent,None
+Decline,20,18000,Rent,None
+Decline,25,22000,Rent,Up to five
+Accepted,29,30000,Rent,Up to five
+Accepted,46,24000,Own,None
+Decline,21,12000,Rent,None
+Accepted,54,68000,Rent,None
+Accepted,25,15000,Rent,None
+Accepted,32,27000,Rent,None
+Accepted,44,35000,Own,Up to five
+Decline,32,21000,Rent,None
+Accepted,23,25000,Rent,None
+Accepted,28,54700,Own,None
+Decline,28,23500,Rent,None
+Accepted,22,16500,Rent,None
+Accepted,34,92000,Own,None
+Accepted,55,72900,Own,Up to five
+Accepted,33,27200,Rent,None
+Accepted,40,36240,Own,None
+Accepted,26,53000,Own,None
+Accepted,55,49000,Own,None
+Accepted,32,36208,Own,None
+Accepted,39,21360,Rent,None
+Accepted,28,25000,Own,None
+Decline,40,4900,Own,None
+Accepted,56,43000,Own,Up to five
+Accepted,42,63000,Own,None
+Accepted,21,24000,Rent,None
+Accepted,33,28000,Own,None
+Accepted,38,50000,Own,None
+Accepted,28,28000,Rent,None
+Accepted,31,28000,Own,None
+Accepted,31,26500,Rent,None
+Decline,25,16000,Rent,None
+Decline,47,21000,Rent,Up to five
+Decline,36,24080,Rent,None
+Decline,53,31000,Own,Up to five
+Accepted,34,26160,Rent,None
+Decline,53,110000,Own,None
+Accepted,22,18000,Rent,None
+Accepted,30,25000,Own,None
+Accepted,25,18000,Rent,None
+Decline,21,27268,Rent,None
+Decline,23,20500,Rent,None
+Accepted,41,50500,Own,None
+Decline,34,38000,Own,Up to five
+Decline,35,42880,Own,Up to five
+Accepted,29,36000,Own,None
+Accepted,31,43000,Own,None
+Decline,41,44400,Own,None
+Accepted,39,26000,Rent,None
+Decline,34,41000,Own,Up to five
+Decline,29,28600,Rent,None
+Accepted,27,24000,Rent,None
+Accepted,23,18000,Rent,None
+Accepted,34,18000,Rent,None
+Accepted,38,51000,Rent,None
+Accepted,36,35606,Rent,None
+Accepted,30,41500,Rent,None
+Decline,32,20237,Rent,None
+Accepted,23,18000,Rent,None
+Accepted,25,29000,Rent,Up to five
+Decline,36,40000,Rent,More than five
+Accepted,29,29500,Rent,None
+Decline,37,32000,Rent,None
+Accepted,41,45000,Own,None
+Decline,37,70000,Own,More than five
+Decline,19,22000,Rent,None
+Accepted,22,28000,Rent,None
+Accepted,29,22000,Rent,None
+Accepted,27,57700,Own,None
+Accepted,43,24317,Rent,None
+Accepted,37,70000,Own,None
+Accepted,27,21500,Rent,None
+Accepted,42,52000,Own,None
+Accepted,28,47000,Own,None
+Accepted,26,25000,Own,None
+Accepted,48,50000,Rent,None
+Accepted,28,35000,Own,None
+Accepted,26,24500,Rent,None
+Decline,21,99999,Rent,None
+Accepted,31,32000,Own,None
+Accepted,28,35400,Rent,None
+Accepted,49,31144,Own,None
+Decline,35,22500,Rent,Up to five
+Accepted,49,60000,Own,Up to five
+Decline,25,16800,Rent,More than five
+Accepted,30,24000,Rent,None
+Accepted,41,32000,Rent,None
+Accepted,41,60000,Own,None
+Accepted,22,17500,Rent,None
+Decline,36,45000,Own,None
+Accepted,40,25000,Rent,None
+Accepted,32,25500,Rent,None
+Accepted,33,32600,Rent,None
+Accepted,23,36000,Rent,Up to five
+Decline,35,27800,Rent,None
+Accepted,58,44000,Own,None
+Accepted,39,32000,Own,None
+Decline,27,16000,Own,None
+Decline,24,16360,Rent,None
+Accepted,30,27000,Rent,None
+Accepted,34,35000,Own,None
+Accepted,39,34224,Own,Up to five
+Accepted,38,65000,Own,None
+Accepted,21,20000,Rent,None
+Accepted,36,35800,Own,None
+Accepted,26,25000,Rent,None
+Accepted,40,20000,Own,Up to five
+Accepted,31,25120,Rent,None
+Decline,39,23004,Rent,None
+Decline,23,38600,Rent,None
+Decline,30,21800,Rent,Up to five
+Accepted,34,45660,Own,None
+Decline,24,31920,Rent,Up to five
+Accepted,41,46000,Own,None
+Accepted,33,37000,Rent,None
+Accepted,48,37000,Own,None

@@ -1,0 +1,253 @@
+---
+title: "descriptive and exploratory analysis"
+author: "H33M"
+date: "`r Sys.Date()`"
+output: word_document
+---
+
+## INTRODUCTION
+  
+  Our analysis will be conducted using R programming language with the help of rstudio software and other packages, for instance, ggplot2 package that ill be used for plotting. We first start by defining what exploratory and descriptive research means.
+  
+  Exploratory research strives to offer understanding and new perspectives on the issue the researcher is trying to solve. Conversely, descriptive research tries to describe something, often its features and functions.
+
+  In our descriptive and exploratory analysis, we are going to look at housing.csv file that will be loaded as shown below. We also require some packages that will be used in this analysis.
+```{r, warning=FALSE, message=FALSE, include=FALSE}
+# load the packages and dataset
+
+library(tidyverse) # for data manipulation, visualization
+housing_data<- read_csv("housing.csv")
+# view the data
+head(housing_data)
+tail(housing_data)
+
+```
+#   DESCRIPTIVE ANALYSIS WITH R
+  
+  We are going to start with descriptive analysis in R for the provided data above.
+  Using summary(), you can quickly determine the minimum, first quartile, median, mean, third quartile, and maximum for all numerical variables in a dataset. Also str() can give us more structural informations pertaining the dataset. 
+```{r, include=FALSE}
+# check the summary of the data
+summary(housing_data)
+str(housing_data)
+
+```
+  We clearly see that all variables are assigned the required data type, for instance, `price` variable is of numerical data type while `age` has been assigned character data type.
+
+#   Handling Missing Values
+  Next thing that follows will be to check for missing values in our data. 
+  In real-world data, there are several cases where a specific element is missing for a variety of reasons, including corrupt data, information loading issues, or insufficient extraction. One of the biggest problems analysts face is handling the missing values because choosing the appropriate solution results in reliable data models. Let's examine various approaches to imputing the missing values.
+  There are ways we can handle missing values. The following are the method used to eliminate missing values that are mostly denoted with `NA` or missing element in the data set.
+  
+  - Delete Rows
+This approach is frequently used to handle null values. Here, if a row contains a null value for a specific feature or if a column contains more than 70–75% missing values, we either remove the row or the column. Only when there are sufficient samples in the data set is this strategy recommended.
+  
+  - Substituting Mean, Median, or Mode
+This tactic can be used on a feature that contains numerical information, such as a person's age or the cost of a ticket. In order to fill in the missing data, we can compute the feature's mean, median, or mode. This is an estimate that might introduce variation into the data set. But this approach, which produces better outcomes than removing rows and columns, can negate the loss of the data.
+  
+  - Predict The Missing Values
+With the use of a machine learning system, we can forecast the nulls using the features that do not have missing values. If a missing value isn't anticipated to have a very high variance, then this approach might produce results that are more accurate. We will use linear regression to use other available features to replace the nulls in the feature "age." Instead of sticking with one algorithm, one can experiment with several and see which provides the most accuracy.
+  
+  For our analysis we will use the second method named above to elimate the missing values present. We first start by checking for the missing values using the table() and is.na() functions on the whole data.
+```{r, include=FALSE}
+# check for missing values
+table(is.na(housing_data))
+# check for missing values in each variables
+tab_housing_data<- list()
+for(var in seq_along(housing_data)){
+  tab_housing_data[[var]]<-table(is.na(housing_data[[var]]))
+
+}
+tab_housing_data
+```
+  
+  We start by checking whether the missing value are present. The first code tells us there are 13 missing value present in the data denoted with TRUE in the table while the FALSE value represents the elements present in the data. The codes that follows will be used to check which variable has missing values in it. Using list(),table(), is.na() functions and a for loop we can iterate through the data and create a list that store each table that shows which variables has missing values. From this process we see that the second and third variables have  and 5 missing values respectively totaling to 13. This variables names is `size` and `bedrooms`.
+  We are going to use the mean to replace NA values in `size` variable and median for `bedrooms` variables and then check whether NA values are done with. 
+```{r, include=FALSE}
+# replace all NAs with means and mode of respective variables
+size_mean<- mean(housing_data$size, na.rm = TRUE)
+bedrooms_median<- median(housing_data$bedrooms, na.rm = TRUE)
+# replace with mean
+housing_data$size[is.na(housing_data$size)]<- size_mean
+# replace with mode
+housing_data$bedrooms[is.na(housing_data$bedrooms)]<- bedrooms_median
+# check if na has been removed
+table(is.na(housing_data))
+```
+  A table with only FALSE variable is returned. Thus all missing values have been delt with accordingly.
+  
+#   Refactoring Variables in the data
+
+  Some variable such as `age`, `bedrooms`, `style` can be converted to factors. We only make a variable into a factor if one or more of the following conditions are true:
+
+  - The variable is categorical in nature since the values of the variable indicate some sort of grouping.
+  - when character variables have been utilized to define group levels, there are significant memory savings to be achieved. Typically, this is the case.
+  - There is no better approach to include the variable, which is numerical in nature but extremely non-linear, into a model than to turn it into a factor with one or two significant cut-points selected.
+  We therefore need to convert them into factor and the best way is using the factor() inside the mutate() function from dplyr package as shown below.
+```{r, include=FALSE}
+# convert into factors
+housing_data <- housing_data %>% 
+  mutate(age = factor(age),
+         bedrooms = factor(bedrooms),
+         style = factor(style))
+
+# check the structure of the data
+str(housing_data)
+```
+  
+  We now see this variables have been converted into factors. 
+
+#   Cleaning the data   
+
+  When we check at age variable, some of this level are outliers for example level like an age bracket of "more than 200 years" is an unrealistic figure therefore should be done with. Also Age like "up to 5 years" is not right since that would mean that a kid can be able to buy a house and that is wrong therefore should be done away with. Age "more than 20" and "more than 20 years" sounds the same so it should also be delt with properly. Age "between 6 and 10 years" can fall under the age bracket "between 11 and 20 years". Also, the style factor variable has the same features such as having different levels but means the same for instance "Tradition" may be same as "Traditional" but was created maybe due to typing error, "Others" and "Other" are one and the same things and its advisable to clean this factor variable. 
+  Therefore using the forcat package from tidyverse meta package, we can refactor this levels.
+```{r,include=FALSE}
+# creating new and realistic levels in our data
+
+housing_data <- housing_data %>%
+  mutate(
+    age = fct_recode(
+      age,
+      More_than_20_years = "More than 20",
+      More_than_20_years = "More than 200 years",
+      More_than_20_years = "than 20 years",
+      More_than_20_years = "More than 20 years",
+      More_than_20_years = "Between 11 and 20 years",
+      Between_11_and_20_years = "Between 6 and 10 years",
+      Between_11_and_20_years = "Up to 5",
+      Between_11_and_20_years = "Up to 5 years"
+      ),
+    style = fct_recode(
+      style,
+      Others = "Other",
+      Town_House = "Town House",
+      Town_House = "Town-House",
+      Town_House = "TownHouse",
+      Traditional = "Tradition"
+    )
+    
+  )
+
+```
+ 
+ After creating new levels above our data is now clean for further analysis.
+  
+# Statistical Properties of Different Variables from the data
+
+  We will start to look at the properties of different variables from the data using some visualizations. Since the variables are only 5 we will look at each one of them looking at some of the relationships of different variables.
+  We can consider looking at the first variable which is price. We can create a histogram that will help us identify how this variable is distributed.
+```{r, include = FALSE}
+# histogram on price variable
+housing_data %>% 
+  ggplot(aes(x = price))+
+  geom_histogram()
+```
+  
+  We can see from the histogram that the price variable is skewed to the right with highest count concentrated between 0 and 500000. This gives us a suggestion that the most sold houses have a price ranging between 0 and 500000. The histogram also show us that the highest count of say house sold  is about 450 while the least sold  houses are below 50 with prices higher than 500000.
+ We can try and see the relationship of the house price together with the houses sizes by creating a scatter plot as shown below.
+```{r, include=FALSE}
+# scatter plot for price and sizes
+housing_data %>% 
+  ggplot(aes(x = size, y = price))+
+  geom_point()
+```
+  We can see that the price of the house relates to the size of the house in that as the price of the house increases, the size of the house also increases. Although we can also see the houses with sizes less than 4000 the price is less than 500000 thus the concentration lies in this region.
+  Also as the size of the house increase, lower number of houses are  sold due to high prices. For instance as the hosue size reaches a size of 8000 the price has reached an amount of 1500000, thus we can say that houses mostly sold are those with a price less than 500000 and a lower size of lower than 4000.
+  We can check the relationship between price and style of the houses from our dataset using a density plot as shown below.
+```{r,include=FALSE}
+# density plot of different house styles together with price
+housing_data %>% 
+  ggplot(aes(price, fill = style))+
+  geom_density(aes(y = ..count..), alpha = 0.5)
+```
+  While checking the relationship between the price and the house style we see that the the most common style used to style this houses is the Traditional way while the other styles follows.
+  This style also has a price ranging below 500000. 
+  Lastly, we can check the age variable and see its properties. A barplot will be the best for this analysis which is created below.
+```{r,include=FALSE}
+# a barplot of age variable
+housing_data %>% 
+  ggplot(aes(age))+
+  geom_bar()+
+  coord_flip()
+```
+  Using the barplot above we see that the age bracket with the highest count will be more than 20 years. This age bracket are the ones who are most likely to buy houses as per the house data provided.
+  
+# Exploratory analysis for housing data
+
+  The main question for this analysis is to predict the house prices as per the given house data. After we have checked our price variable above we would like to further the analysis so that the buyers and and real estate agents can understand more about the house price given other factors.
+  We can start by checking how the house price relates to other variable, starting with a variable called `size`. Since the size of the house will definitely depend on price we have to create a scatter plot using the two variables with size depending on price and using different age brackets as color.
+```{r,include=FALSE}
+# bar plot for price against size colored using age
+housing_data %>% 
+  ggplot(aes(x = size, y = price, color = age))+
+  geom_point()+
+  labs(
+    title = "A plot for House Price in dollars against House size in square feet",
+    x = "House Size(square feet)",
+    y = "House Price(US dollars)"
+  )
+```
+  By considering that we would like to know which group buys the houses the most, we colored the plot using the age bracket and we clearly see that the house agents target group is those with age more than 20 years. This is evident since the plot show us the highest proportion of group that buys the houses is those with pink color and they are more_than_20_years age bracket. We can also prove this using a table and count the number which is highest between the two groups using the codes below.
+```{r,include=FALSE}
+# table that shows the distribution of this price according to age
+housing_data %>% 
+  group_by(age) %>% 
+  count(age,sort = T)
+```
+  And by that the age with the highest count is More_than_20_years, ie, age greater than 20 are the most type of people who buys houses the most.
+  We can also create a plot that will show us which house style is bought the most. This can be shown below by creating a faceted histograms plot of house price .
+```{r,include=FALSE}
+# create a histogram facet of style variable on price
+housing_data %>% 
+  ggplot(aes(price))+
+  geom_histogram()+
+  labs(
+    title = "Faceted histograms of different house style on house price",
+    x = "House prices"
+  )+
+  facet_wrap(~style)
+
+```
+  
+  Most of this house style in our dataset have a count of lower than 100, but we can also see a style that has count more than 250 count is the Traditional style. Although this house has a price of lower than 500000, an agent who would like to build houses for selling will consider the traditional style the most to increase their profits. Also, for anyone who would like to buy a house will consider this style since it seems that most people like it thats why the count rate is highest.
+  
+  We can also count how this house style performed as shown below.
+```{r,include=FALSE}
+# count the highest rate of house style sold
+housing_data %>% 
+  group_by(style) %>% 
+  count(style, sort = T)
+```
+  
+  The highest count is 52 for the Traditional style as shown above.
+  
+  Lastly, looking at the number of bedrooms, we have to come up with a visualizations that will show us what number of bedrooms sold well and was well considered.
+```{r, include=FALSE}
+# plot for price and the numbers of bedrooms
+housing_data %>% 
+  ggplot(aes(price))+
+  geom_histogram()+
+  labs(
+    title = "A histogram plot for the house price and number of bedrooms",
+    x = "House Price(dollars)"
+  )+
+  facet_wrap(~bedrooms)
+```
+  
+  We can see that the most house bought had 3 number of bedrooms followed by 4 then 2. Therefore its well clear to the house agents that the house that is preferred to sell should have 3 bedroom for gain of maximum profits. Its also likely that the house that a person who want to buy should have three bedroom maybe due to the number of members in the family. 
+  
+# CONCLUSION  
+  
+  We can coclude that:
+  
+  - an agent can make more profits if he/she invest his money and time on the Traditional house style, for better profits.
+  
+  - If one wants to buy a house he/she might consider house that has Traditional style in it. 
+  
+  - We also saw through the analysis that most people who buy houses have age above 20 years. 
+  
+  - We also saw in the above analysis that as the size of the house increases, the price also increases.
+  
+  - Also, if an agent want to increase profits earned in this sector, he should sell houses with 3 bedrooms since most people are more likely to buy this house.
+  
+# Reference
